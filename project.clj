@@ -5,7 +5,7 @@
             :url  "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [overtone "0.10.3"]]
-  :main ^:skip-aot hertz.core
+  :main ^:skip-aot overtone-play.core
   :native-path "native"
   :target-path "target/%s"
   :jvm-opts ^:replace []
