@@ -1,7 +1,7 @@
 (ns overtone-play.core
+  (:use [overtone.core])
   (:require [overtone.live :as ol]
             [overtone.inst.sampled-piano :as oisp])
-  (:use overtone.core)
   (:gen-class))
 
 (defn -main
